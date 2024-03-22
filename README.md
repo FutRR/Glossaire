@@ -82,49 +82,123 @@ Un CMS (Content Management System) est un outil pour créer un site web sans dir
  
 ## Front-end
 18.	Définir HTML
+  HTML (HyperText Markup Language) est un langage de balisage, il est utilisé afin de créer le contenu et la structure d’un site web. 
+
 19.	Définir CSS
+  CSS (Cascasing Style Sheets) est un langage de style, il sert à donner la forme et à manier les éléments d’un site web ? 
+
 20.	Définir Javascript
+  JavaScript est un langage de script orienté objet, il sert à manipuler des éléments HTML et CSS afin de rendre un site web plus animé et intuitif. 
+  
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
+  JSON (JavaScript Object Notation) est un moyen de représenter des objets, tableaux et données JS. 
+
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+  Oui il est possible d’interpreter du JavaScript côté serveur avec Node.js, il s’suffit d’écrire une ligne de commande “node example.js”. 
+
 23.	Qu’est-ce qu’un sélecteur CSS ?
+  Un sélecteur CSS définie les éléments sur lesquels les propriétés CSS s’appliquent. 
+
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
+  La balise anchor ( <a>…</a>) permet de créer un lien hypertexte. 
+
 25.	Qu’est-ce qu’une requête AJAX ?
+  Une requête AJAX est une technique qui permet d’actualiser une page web sans la recharger totalement. 
+
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+  Le sélecteur « . » permet de sélectionner tous les éléments d’une classe et le sélecteur « # » permet de sélectionner tous les éléments d’un identifiant. 
+
 27.	Définir le responsive design
+  Le responsive design est le fait de créer une application qui s’adapte à différentes tailles d’écran (mobile, tablette et desktop). 
+
+
 28.	Qu’est-ce que le templating ?
+  Le templating est le fait de regrouper plusieurs fichiers et leurs appliquer du HTML/CSS afin d’éviter les répétitions. 
+
+
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
+  Une fonction anonyme est une fonction qui n’a pas de nom. On peut exécuter en l’affectant à une variable, en l’auto-invoquant ou en l’utilisant dans un évènement. 
+
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+  La méthode push(). 
+
 31.	Qu’est-ce qu’un « media query » ?
+  Un media query est une requête CSS qui permet de modifier le visuel en fonction de la taille de l’écran utilisé. 
+
 32.	Qu’est-ce qu’un pseudo élément en CSS ?
+  Un pseudo-élément est un mot-clé ajouté en utilisant « :: » (ne pas confondre avec : des pseudo-classes) qui permet de mettre en forme certaines parties de l’élément ciblé par la règle. 
+
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+  Bootstrap est un framework front-end, il permet de créer le HTML et CSS bien plus rapidement en utilisant des templates. 
+
+  Tailwind, Bulma ou Materialize sont des équivalents. 
+
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+  La méthode GET récupère une page et affiche son contenu alors que la méthode POST récupère le contenu et l’envoie au serveur. 
+
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
+  UX design (User Experience) se focalise sur la facilité de prise en main et l'accessibilité de l'interface alors que l'UI design (User Interface) se focalise sur les visuels et la visibilité de l'interface.
+
 36.	Qu’est-ce qu’un wireframe ? 
+  Un wireframe est un schéma d'une page web, il est souvent fait de forme basiques et en nuances de gris. Un wireframe permet de pré-visualiser la structure d'un site.
+
 37.	Qu’est-ce qu’un prototype ? 
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
 40.	Qu’est-ce qu’une grille de mise en page ?
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
 42.	Qu’est-ce qu’un « mobile first design » ?
-IV. Programmation orientée objet (POO)
+  Le mobile first design est le fait de créer un site avec une structure et un style adapté aux petits écrans, puis de l'ajuster pour les écrans plus larges.
+
+## Programmation orientée objet (POO)
 43.	Donner une définition de la programmation orientée objet 
+  La POO consiste à définir et faire interagir entre eux des objets, compris ici comme tous types de structures issues d’un langage donné. Par convenance, les objets en POO désignent le plus souvent des variables complexes, elles-mêmes composées de variables ou de fonctions. 
+
 44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+Une classe est un élément qui créé contient des objets, on la déclare avec des attributs et des méthodes. 
+
 45.	Qu’est-ce qu’un objet ?
+  Un objet représente un concept, une idée ou toute entité du monde physique. Il possède une structure interne et un comportement et peut interagir avec ses pairs. 
+
 46.	Définir la notion de propriété / attribut / méthode
+  Les attributs (propriétés) représentent les caractéristiques de l’objet et les méthodes correspondent aux actions possibles avec l’objet. 
+
 47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+  La visibilité d’une propriété/méthode correspond à son rayon d’action. 
+
+-Publique : permet aux propriétés/méthodes d’être accessible depuis n’importe où dans le programme principal.  
+
+-Privée : permet aux propriétés/méthodes de n’être accessible que depuis l’intérieur de la classe. 
+
+-Protégée : l’intermédiaire entre les deux autres, elle permet d’utiliser les propriétés/méthodes communs dans une classe parente et ses classes dérivées. 
+
 48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+  Le constructor est la méthode (magique) la plus utilisée pour créer un nouvel objet, elle permet de définir tous les attributs de l’objet en le créant.   
+
 49.	Qu’est-ce que l’encapsulation ?
 50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+  Étendre une classe consiste à créer une classe mère qui regroupe des classes enfants. Cela permet aux classe enfant d’hériter des attributs de la classe mère. 
+
+Exemple : On crée une classe mère “Personne” et deux classes enfant “Acteur” et “Réalisateur”, on a plus qu’à déclarer les attributs (nom, prenom, sexe, age) une seule fois dans la classe “Personne” et les deux classes enfant hériteront de ses attributs. 
+
 51.	Définir l’opérateur de résolution de portée
 52.	Définir une méthode / propriété statique
 53.	Définir le polymorphisme en POO
 54.	Définir une méthode / classe abstraite ?
 55.	Définir le chaînage de méthodes
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+  La méthode magique __toString permet de passer en chaîne de caractères différents attributs de la classe, elle peut être appelée en utilisant $this. 
+
+Il existe d’autres méthodes magiques (__construct, __destruct, __call et plein d’autres). 
+
 57.	Qu’est-ce qu’un « autoload » ?
+  Un autoload est un auto-chargement de classe, il permet de charger plusieurs classes d’un programme au sein d’un seul et même fichier. 
+
 58.	Comment appelle-t-on en français les « getters » et les « setters » ?
+  Les getters sont des accesseurs et les setters sont des mutateurs. 
+
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
 ## Architecture 
@@ -244,34 +318,36 @@ h.	Concaténer 2 chaînes de caractères
  
 ## English
 1)	What does JavaScript enable you to do on a website ?
-a.	Add interactive behavior and dynamic content
+2)	```diff
++a.	Add interactive behavior and dynamic content
+```
 b.	Define the layout and design of web pages
 c.	Handle server-side operations
-2)	Which programming language is primarily used for server-side web development ?
+3)	Which programming language is primarily used for server-side web development ?
 a.	PHP
 b.	JavaScript
 c.	HTML
-3)	What is the purpose of a web browser ?
+4)	What is the purpose of a web browser ?
 a.	To render and display web pages
 b.	To execute serve-side code
 c.	To manage databases
-4)	What is the difference between GET and POST methods in HTTP ?
+5)	What is the difference between GET and POST methods in HTTP ?
 a.	GET retrieves data from a server, while POST submits data to a server
 b.	GET submits data to a server, while POST retrieves data from a server
 c.	GET and POST methods are interchangeable
-5)	What is the purpose of version control systems (e.g., Git) in web development ?
+6)	What is the purpose of version control systems (e.g., Git) in web development ?
 a.	To track changes and manage collaborative development
 b.	To optimize website loading speed
 c.	To handle server-side scripting
-6)	What is the purpose of a framework in web development ?
+7)	What is the purpose of a framework in web development ?
 a.	To provide a structured environment for building web applications
 b.	To handle network protocols and data transfer
 c.	To create visual designs and layouts for websites
-7)	What does NoSQL stand for ?
+8)	What does NoSQL stand for ?
 a.	Not Only SQL
 b.	Non-Structured Query Language
 c.	New Object-Oriented Language
-8)	Which of the following is a characteristic of NoSQL databases ?
+9)	Which of the following is a characteristic of NoSQL databases ?
 a.	Strict schema enforcement
 b.	Support for complex transactions
 c.	Scalability and flexible data models
