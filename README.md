@@ -13,22 +13,22 @@
 - [English](#english)
 
 ## Général
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
-  Laragon (Windows) et MAMP (MAC) 
+1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte  
+    Laragon (Windows) et MAMP (MAC) 
 
 2.	Qu’est-ce qu’un algorithme ?  
   Un algorithme est une suite d’étapes/instructions permettant de retourner un résultat. 
 
-3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?  
   Une variable est un élément qui associe un nom avec une valeur, une variable est préfixée avec « $ » sur PHP. 
 
-4.	Qu’est-ce que la portée d’une variable ?
+4.	Qu’est-ce que la portée d’une variable ?  
   La portée d’une variable est son espace de fonctionnement. La portée est de base étendue sur tout le programme mais peut être limitée à une fonction ou une classe. 
 
-5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?  
   Une constante est une variable qui ne peut pas être modifiée au cours d’un programme. 
 
-6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation  
   Une superglobale est une variable prédéfinie, elle est disponible quel que soit le contexte du script. Il en existe 9. 
 $_COOKIE est utilisée comme un tableau associatif, il peut chercher et données des cookies http et les introduire dans le code. 
 
