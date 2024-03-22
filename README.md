@@ -15,17 +15,23 @@
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
   Laragon (Windows) et MAMP (MAC) 
+
 2.	Qu’est-ce qu’un algorithme ?  
   Un algorithme est une suite d’étapes/instructions permettant de retourner un résultat. 
+
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
   Une variable est un élément qui associe un nom avec une valeur, une variable est préfixée avec « $ » sur PHP. 
+
 4.	Qu’est-ce que la portée d’une variable ?
   La portée d’une variable est son espace de fonctionnement. La portée est de base étendue sur tout le programme mais peut être limitée à une fonction ou une classe. 
+
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
   Une constante est une variable qui ne peut pas être modifiée au cours d’un programme. 
+
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
   Une superglobale est une variable prédéfinie, elle est disponible quel que soit le contexte du script. Il en existe 9. 
 $_COOKIE est utilisée comme un tableau associatif, il peut chercher et données des cookies http et les introduire dans le code. 
+
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
   Les différents types sont :  
 
@@ -42,24 +48,34 @@ $_COOKIE est utilisée comme un tableau associatif, il peut chercher et données
 -byte (octet) 
 
 -void 
+
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
   Oui, il y a les tableaux indexés, les tableaux associatifs et les tableaux multidimensionnels. 
+
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+
 
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
   strlen() 
+
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+
 
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 
+
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
+
 
 14.	Comment effectuer une redirection en PHP ?
 
+
 15.	Définir la partie « front-end » et « back-end » d’une application
   La partie front-end d’une application est la partie gérée du côté client, elle est principalement chargée de l’affichage (partie boutique d’un magasin) contrairement à la partie back-end qui est gérée du côté serveur et est principalement chargée du fonctionnement (partie arrière/entrepôt d’un magasin). 
+
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
   Le contrôle de version est le fait de suivre et gérer les changements apportés au code d’un logiciel. Git est le système de contrôle de version le plus utilisé. 
+
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 Un CMS (Content Management System) est un outil pour créer un site web sans directement utiliser la programmation, Webflow et Wordpress sont de bon choix. 
 
