@@ -55,28 +55,28 @@ $_COOKIE est utilisée comme un tableau associatif, il peut chercher et données
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles  
 
 
-10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?  
+11.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?  
   strlen() 
 
-11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP  
+12.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP  
 
 
-12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP  
+13.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP  
 
 
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP  
+14.	Quelle est la différence entre les instructions « require » et « include » en PHP  
 
 
-14.	Comment effectuer une redirection en PHP ?  
+15.	Comment effectuer une redirection en PHP ?  
 
 
-15.	Définir la partie « front-end » et « back-end » d’une application  
+16.	Définir la partie « front-end » et « back-end » d’une application  
   La partie front-end d’une application est la partie gérée du côté client, elle est principalement chargée de l’affichage (partie boutique d’un magasin) contrairement à la partie back-end qui est gérée du côté serveur et est principalement chargée du fonctionnement (partie arrière/entrepôt d’un magasin). 
 
-16.	Définir le contrôle de version ? Qu’est-ce que Git ?  
+17.	Définir le contrôle de version ? Qu’est-ce que Git ?  
   Le contrôle de version est le fait de suivre et gérer les changements apportés au code d’un logiciel. Git est le système de contrôle de version le plus utilisé. 
 
-17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples  
+18.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples  
 Un CMS (Content Management System) est un outil pour créer un site web sans directement utiliser la programmation, Webflow et Wordpress sont de bon choix. 
 
  
