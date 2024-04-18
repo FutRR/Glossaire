@@ -72,13 +72,14 @@
    exemple : if/else, switch statement\
 
 10. Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?  
+
     strlen()
 
-11. Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+12. Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 
-Une session est un moyen de stocker des données pour chaque utilisateur en utilisant un identifiant unique.\
- Elle se démarre en utilisant session_start(). \
- Exemple : système de compte pour utilisateur
+   Une session est un moyen de stocker des données pour chaque utilisateur en utilisant un identifiant unique.\
+   Elle se démarre en utilisant session_start(). \
+   Exemple : système de compte pour utilisateur
 
 12. Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 
@@ -87,75 +88,91 @@ Une session est un moyen de stocker des données pour chaque utilisateur en util
 
 13. Quelle est la différence entre les instructions « require » et « include » en PHP
 
-require est utilisé quand le fichier 'requis' est indispensable au bon fonctionnement de l'app, include est utilisé dans le cas contraire
+    require est utilisé quand le fichier 'requis' est indispensable au bon fonctionnement de l'app, include est utilisé dans le cas contraire
 
 14. Comment effectuer une redirection en PHP ?
 
-Avec la fonction header()
+    Avec la fonction header()
 
 15. Définir la partie « front-end » et « back-end » d’une application
 
-    La partie front-end d’une application est la partie gérée du côté client, elle est principalement chargée de l’affichage (partie boutique d’un magasin) contrairement à la partie back-end qui est gérée du côté serveur et est principalement chargée du fonctionnement (partie arrière/entrepôt d’un magasin).
+    La partie front-end d’une application est la partie gérée du côté client, elle est principalement chargée de l’affichage (partie boutique     d’un magasin) contrairement à la partie back-end qui est gérée du côté serveur et est principalement chargée du fonctionnement (partie        arrière/entrepôt d’un magasin).
 
 16. Définir le contrôle de version ? Qu’est-ce que Git ?
 
-    Le contrôle de version est le fait de suivre et gérer les changements apportés au code d’un logiciel. Git est le système de contrôle de version le plus utilisé.
+    Le contrôle de version est le fait de suivre et gérer les changements apportés au code d’un logiciel. Git est le système de contrôle de       version le plus utilisé.
 
 17. Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
-    Un CMS (Content Management System) est un outil pour créer un site web sans directement utiliser la programmation, Webflow et Wordpress sont de bon choix.
+    Un CMS (Content Management System) est un outil pour créer un site web sans directement utiliser la programmation, Webflow et Wordpress       sont de bon choix.
 
 ## Front-end
 
 18. Définir HTML  
+
     HTML (HyperText Markup Language) est un langage de balisage, il est utilisé afin de créer le contenu et la structure d’un site web.
 
-19. Définir CSS  
+20. Définir CSS  
+
     CSS (Cascasing Style Sheets) est un langage de style, il sert à donner la forme et à manier les éléments d’un site web ?
 
-20. Définir Javascript  
-    JavaScript est un langage de script orienté objet, il sert à manipuler des éléments HTML et CSS afin de rendre un site web plus animé et intuitif.
+22. Définir Javascript  
 
-21. Définir JSON. Dans quel contexte ce format est-il utilisé ?  
+    JavaScript est un langage de script orienté objet, il sert à manipuler des éléments HTML et CSS afin de rendre un site web plus animé et      intuitif.
+
+24. Définir JSON. Dans quel contexte ce format est-il utilisé ?  
+
     JSON (JavaScript Object Notation) est un moyen de représenter des objets, tableaux et données JS.
 
-22. Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?  
+26. Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?  
+
     Oui il est possible d’interpreter du JavaScript côté serveur avec Node.js, il s’suffit d’écrire une ligne de commande “node example.js”.
 
-23. Qu’est-ce qu’un sélecteur CSS ?  
+28. Qu’est-ce qu’un sélecteur CSS ?  
+
     Un sélecteur CSS définie les éléments sur lesquels les propriétés CSS s’appliquent.
 
-24. Quelle balise HTML permet de créer un lien hypertexte ?  
+30. Quelle balise HTML permet de créer un lien hypertexte ?  
+
     La balise anchor ( <a>…</a>) permet de créer un lien hypertexte.
 
-25. Qu’est-ce qu’une requête AJAX ?  
+32. Qu’est-ce qu’une requête AJAX ?  
+
     Une requête AJAX est une technique qui permet d’actualiser une page web sans la recharger totalement.
 
-26. Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?  
-    Le sélecteur « . » permet de sélectionner tous les éléments d’une classe et le sélecteur « # » permet de sélectionner tous les éléments d’un identifiant.
+34. Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?  
 
-27. Définir le responsive design  
+    Le sélecteur « . » permet de sélectionner tous les éléments d’une classe et le sélecteur « # » permet de sélectionner tous les éléments       d’un identifiant.
+
+36. Définir le responsive design  
+
     Le responsive design est le fait de créer une application qui s’adapte à différentes tailles d’écran (mobile, tablette et desktop).
 
-28. Qu’est-ce que le templating ?  
+38. Qu’est-ce que le templating ?  
+
     Le templating est le fait de regrouper plusieurs fichiers et leurs appliquer du HTML/CSS afin d’éviter les répétitions.
 
-29. Qu’est-ce qu’une fonction anonyme en Javascript ?  
-    Une fonction anonyme est une fonction qui n’a pas de nom. On peut exécuter en l’affectant à une variable, en l’auto-invoquant ou en l’utilisant dans un évènement.
+40. Qu’est-ce qu’une fonction anonyme en Javascript ?  
 
-30. Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?  
+    Une fonction anonyme est une fonction qui n’a pas de nom. On peut exécuter en l’affectant à une variable, en l’auto-invoquant ou en           l’utilisant dans un évènement.
+
+42. Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?  
+
     La méthode push().
 
-31. Qu’est-ce qu’un « media query » ?  
+44. Qu’est-ce qu’un « media query » ?  
+
     Un media query est une requête CSS qui permet de modifier le visuel en fonction de la taille de l’écran utilisé.
 
-32. Qu’est-ce qu’un pseudo élément en CSS ?  
-    Un pseudo-élément est un mot-clé ajouté en utilisant « :: » (ne pas confondre avec : des pseudo-classes) qui permet de mettre en forme certaines parties de l’élément ciblé par la règle.
+46. Qu’est-ce qu’un pseudo élément en CSS ?  
 
-33. Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent  
+    Un pseudo-élément est un mot-clé ajouté en utilisant « :: » (ne pas confondre avec : des pseudo-classes) qui permet de mettre en forme        certaines parties de l’élément ciblé par la règle.
+
+48. Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent  
+
     Bootstrap est un framework front-end, il permet de créer le HTML et CSS bien plus rapidement en utilisant des templates.
 
-Tailwind, Bulma ou Materialize sont des équivalents.
+    Tailwind, Bulma ou Materialize sont des équivalents.
 
 34. Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes  
     La méthode GET récupère une page et affiche son contenu alors que la méthode POST récupère le contenu et l’envoie au serveur.
@@ -163,39 +180,47 @@ Tailwind, Bulma ou Materialize sont des équivalents.
 ## UX UI
 
 35. Quelle est la différence entre UX Design et UI Design ?  
+
     UX design (User Experience) se focalise sur la facilité de prise en main et l'accessibilité de l'interface alors que l'UI design (User        Interface) se focalise sur les visuels et la visibilité de l'interface.
 
-36. Qu’est-ce qu’un wireframe ?  
+37. Qu’est-ce qu’un wireframe ?  
+
     Un wireframe est un schéma d'une page web, il est souvent fait de forme basiques et en nuances de gris. Un wireframe permet de pré-           visualiser la structure d'un site.
 
-37. Qu’est-ce qu’un prototype ?
+39. Qu’est-ce qu’un prototype ?
 
-38. Qu’est-ce que la hiérarchie visuelle en UI Design ?
+40. Qu’est-ce que la hiérarchie visuelle en UI Design ?
 
-39. Qu’est-ce que l’accessibilité en UX Design ?
+41. Qu’est-ce que l’accessibilité en UX Design ?
 
-40. Qu’est-ce qu’une grille de mise en page ?
+42. Qu’est-ce qu’une grille de mise en page ?
 
-41. Qu’est-ce que la notion d’affordance en UX Design ?
+43. Qu’est-ce que la notion d’affordance en UX Design ?
 
-42. Qu’est-ce qu’un « mobile first design » ?  
+44. Qu’est-ce qu’un « mobile first design » ?  
+
     Le mobile first design est le fait de créer un site avec une structure et un style adapté aux petits écrans, puis de l'ajuster pour les       écrans plus larges.
 
 ## Programmation orientée objet (POO)
 
 43. Donner une définition de la programmation orientée objet  
+
     La POO consiste à définir et faire interagir entre eux des objets, compris ici comme tous types de structures issues d’un langage donné.      Par convenance, les objets en POO désignent le plus souvent des variables complexes, elles-mêmes composées de variables ou de fonctions.
 
-44. Qu’est-ce qu’une classe ? Comment la déclare-t-on ?  
+45. Qu’est-ce qu’une classe ? Comment la déclare-t-on ?  
+
     Une classe est un élément qui créé contient des objets, on la déclare avec des attributs et des méthodes.
 
-45. Qu’est-ce qu’un objet ?  
+47. Qu’est-ce qu’un objet ?  
+
     Un objet représente un concept, une idée ou toute entité du monde physique. Il possède une structure interne et un comportement et peut       interagir avec ses pairs.
 
-46. Définir la notion de propriété / attribut / méthode  
+49. Définir la notion de propriété / attribut / méthode  
+
     Les attributs (propriétés) représentent les caractéristiques de l’objet et les méthodes correspondent aux actions possibles avec l’objet.
 
-47. Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité  
+51. Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité  
+
     La visibilité d’une propriété/méthode correspond à son rayon d’action.
 
 -Publique : permet aux propriétés/méthodes d’être accessible depuis n’importe où dans le programme principal.
@@ -205,13 +230,16 @@ Tailwind, Bulma ou Materialize sont des équivalents.
 -Protégée : l’intermédiaire entre les deux autres, elle permet d’utiliser les propriétés/méthodes communs dans une classe parente et ses classes dérivées.
 
 48. Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?  
+
     Le constructor est la méthode (magique) la plus utilisée pour créer un nouvel objet, elle permet de définir tous les attributs de l’objet     en le créant.
 
-49. Qu’est-ce que l’encapsulation ?
-50. Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+50. Qu’est-ce que l’encapsulation ?
+
+51. Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+
     Étendre une classe consiste à créer une classe mère qui regroupe des classes enfants. Cela permet aux classe enfant d’hériter des             attributs de la classe mère.
 
-Exemple : On crée une classe mère “Personne” et deux classes enfant “Acteur” et “Réalisateur”, on a plus qu’à déclarer les attributs (nom, prenom, sexe, age) une seule fois dans la classe “Personne” et les deux classes enfant hériteront de ses attributs.
+   Exemple : On crée une classe mère “Personne” et deux classes enfant “Acteur” et “Réalisateur”, on a plus qu’à déclarer les attributs (nom,    prenom, sexe, age) une seule fois dans la classe “Personne” et les deux classes enfant hériteront de ses attributs.
 
 51. Définir l’opérateur de résolution de portée
 
@@ -224,17 +252,19 @@ Exemple : On crée une classe mère “Personne” et deux classes enfant “Act
 55. Définir le chaînage de méthodes
 
 56. Qu’est-ce que la méthode **toString() ? Existe-t-il d’autres méthodes « magiques »  
-    La méthode magique **toString permet de passer en chaîne de caractères différents attributs de la classe, elle peut être appelée en utilisant $this.
+    La méthode magique **toString permet de passer en chaîne de caractères différents attributs de la classe, elle peut être appelée en           utilisant $this.
 
-Il existe d’autres méthodes magiques (**construct, **destruct, \_\_call et plein d’autres).
+    Il existe d’autres méthodes magiques (**construct, **destruct, \_\_call et plein d’autres).
 
 57. Qu’est-ce qu’un « autoload » ?  
+
     Un autoload est un auto-chargement de classe, il permet de charger plusieurs classes d’un programme au sein d’un seul et même fichier.
 
-58. Comment appelle-t-on en français les « getters » et les « setters » ?  
+59. Comment appelle-t-on en français les « getters » et les « setters » ?  
+
     Les getters sont des accesseurs et les setters sont des mutateurs.
 
-59. Qu’est-ce que la sérialisation en PHP ?
+61. Qu’est-ce que la sérialisation en PHP ?
 
 ## Architecture
 
