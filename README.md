@@ -163,10 +163,10 @@ Tailwind, Bulma ou Materialize sont des équivalents.
 ## UX UI
 
 35. Quelle est la différence entre UX Design et UI Design ?  
-    UX design (User Experience) se focalise sur la facilité de prise en main et l'accessibilité de l'interface alors que l'UI design (User Interface) se focalise sur les visuels et la visibilité de l'interface.
+    UX design (User Experience) se focalise sur la facilité de prise en main et l'accessibilité de l'interface alors que l'UI design (User        Interface) se focalise sur les visuels et la visibilité de l'interface.
 
 36. Qu’est-ce qu’un wireframe ?  
-    Un wireframe est un schéma d'une page web, il est souvent fait de forme basiques et en nuances de gris. Un wireframe permet de pré-visualiser la structure d'un site.
+    Un wireframe est un schéma d'une page web, il est souvent fait de forme basiques et en nuances de gris. Un wireframe permet de pré-           visualiser la structure d'un site.
 
 37. Qu’est-ce qu’un prototype ?
 
@@ -179,18 +179,18 @@ Tailwind, Bulma ou Materialize sont des équivalents.
 41. Qu’est-ce que la notion d’affordance en UX Design ?
 
 42. Qu’est-ce qu’un « mobile first design » ?  
-    Le mobile first design est le fait de créer un site avec une structure et un style adapté aux petits écrans, puis de l'ajuster pour les écrans plus larges.
+    Le mobile first design est le fait de créer un site avec une structure et un style adapté aux petits écrans, puis de l'ajuster pour les       écrans plus larges.
 
 ## Programmation orientée objet (POO)
 
 43. Donner une définition de la programmation orientée objet  
-    La POO consiste à définir et faire interagir entre eux des objets, compris ici comme tous types de structures issues d’un langage donné. Par convenance, les objets en POO désignent le plus souvent des variables complexes, elles-mêmes composées de variables ou de fonctions.
+    La POO consiste à définir et faire interagir entre eux des objets, compris ici comme tous types de structures issues d’un langage donné.      Par convenance, les objets en POO désignent le plus souvent des variables complexes, elles-mêmes composées de variables ou de fonctions.
 
 44. Qu’est-ce qu’une classe ? Comment la déclare-t-on ?  
     Une classe est un élément qui créé contient des objets, on la déclare avec des attributs et des méthodes.
 
 45. Qu’est-ce qu’un objet ?  
-    Un objet représente un concept, une idée ou toute entité du monde physique. Il possède une structure interne et un comportement et peut interagir avec ses pairs.
+    Un objet représente un concept, une idée ou toute entité du monde physique. Il possède une structure interne et un comportement et peut       interagir avec ses pairs.
 
 46. Définir la notion de propriété / attribut / méthode  
     Les attributs (propriétés) représentent les caractéristiques de l’objet et les méthodes correspondent aux actions possibles avec l’objet.
@@ -205,11 +205,11 @@ Tailwind, Bulma ou Materialize sont des équivalents.
 -Protégée : l’intermédiaire entre les deux autres, elle permet d’utiliser les propriétés/méthodes communs dans une classe parente et ses classes dérivées.
 
 48. Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?  
-    Le constructor est la méthode (magique) la plus utilisée pour créer un nouvel objet, elle permet de définir tous les attributs de l’objet en le créant.
+    Le constructor est la méthode (magique) la plus utilisée pour créer un nouvel objet, elle permet de définir tous les attributs de l’objet     en le créant.
 
 49. Qu’est-ce que l’encapsulation ?
 50. Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
-    Étendre une classe consiste à créer une classe mère qui regroupe des classes enfants. Cela permet aux classe enfant d’hériter des attributs de la classe mère.
+    Étendre une classe consiste à créer une classe mère qui regroupe des classes enfants. Cela permet aux classe enfant d’hériter des             attributs de la classe mère.
 
 Exemple : On crée une classe mère “Personne” et deux classes enfant “Acteur” et “Réalisateur”, on a plus qu’à déclarer les attributs (nom, prenom, sexe, age) une seule fois dans la classe “Personne” et les deux classes enfant hériteront de ses attributs.
 
@@ -287,8 +287,14 @@ Il existe d’autres méthodes magiques (**construct, **destruct, \_\_call et pl
 ## Symfony
 
 84. Qu’est-ce que Symfony ?
+   Symfony est un framework de PHP permettant d'utiliser des composants PHP plus simplement et plus rapidement
+
 85. Sur quel langage de programmation et design pattern repose Symfony ?
+   Symfony se repose sur PHP et sur le design pattern MVC
+
 86. Quelle est la dernière version en date de Symfony ?
+    La dernière version en date est la 7.1
+
 87. Qu’est-ce qu’un bundle ?
 88. Quel est le moteur de template utilisé par défaut dans Symfony ?
 89. Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
@@ -300,7 +306,11 @@ Il existe d’autres méthodes magiques (**construct, **destruct, \_\_call et pl
 ## Sécurité
 
 94. Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
+   L'injection SQL est le fait d'attacher des lignes de codes SQL dans les inputs d'un site afin de modifier la base de donnée. On peut s'en     prémunir en préparant ses requêtes SQL.
+
 95. Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+   Une faille XSS est le fait d'introduire du code malveillant dans un site. On peut s'en prémunir en utilisant par exemple des filter_input     ou filter_var en PHP, cela permettra aux formulaires de détecter et annuler du code malveillant ou des caractères non voulus.
+
 96. Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
 97. Définir l’attaque par force brute et l’attaque par dictionnaire
 98. Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
