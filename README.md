@@ -205,7 +205,7 @@
 
 43. Donner une définition de la programmation orientée objet  
 
-    La POO consiste à définir et faire interagir entre eux des objets, compris ici comme tous types de structures issues d’un langage donné.      Par convenance, les objets en POO désignent le plus souvent des variables complexes, elles-mêmes composées de variables ou de fonctions.
+    La POO consiste à définir et faire interagir entre eux des objets, compris ici comme tous types de structures issues d’un langage donné.      Par convenance, les objets en POO désignent le plus souvent des variables complexes, elles-mêmes composées de variables ou       de fonctions.
 
 45. Qu’est-ce qu’une classe ? Comment la déclare-t-on ?  
 
@@ -270,6 +270,10 @@
 
 60. Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
 61. Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
+   Un design pattern (patron de conception) est une infrastructure, une suite d'étapes permettant de créer un logiciel/app avec une structure controlée
+
+   Factory, Observer, Decorator
+
 62. Qu’est-ce que l’architecture MVC ?
 63. Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
 64. Quels sont les avantages de l’architecture MVC ?
