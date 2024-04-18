@@ -248,15 +248,16 @@
 53. Définir le polymorphisme en POO
 
 54. Définir une méthode / classe abstraite ?
+   Une méthode est une fonction utilisée dans une classe, uen classe abstraite est une classe qui ne peut être instanciée.
 
 55. Définir le chaînage de méthodes
 
 56. Qu’est-ce que la méthode **toString() ? Existe-t-il d’autres méthodes « magiques »  
-    La méthode magique **toString permet de passer en chaîne de caractères différents attributs de la classe, elle peut être appelée en           utilisant $this.
 
+    La méthode magique **toString permet de passer en chaîne de caractères différents attributs de la classe, elle peut être appelée en           utilisant $this.
     Il existe d’autres méthodes magiques (**construct, **destruct, \_\_call et plein d’autres).
 
-57. Qu’est-ce qu’un « autoload » ?  
+58. Qu’est-ce qu’un « autoload » ?  
 
     Un autoload est un auto-chargement de classe, il permet de charger plusieurs classes d’un programme au sein d’un seul et même fichier.
 
@@ -265,6 +266,9 @@
     Les getters sont des accesseurs et les setters sont des mutateurs.
 
 61. Qu’est-ce que la sérialisation en PHP ?
+
+   La sérialisation est une technique qui à pour but de transferer des valeurs entre scripts sans qu'elles perdent leurs structure ou type. 
+   
 
 ## Architecture
 
@@ -331,7 +335,11 @@
 
 87. Qu’est-ce qu’un bundle ?
 88. Quel est le moteur de template utilisé par défaut dans Symfony ?
+   Le moteur de template utilisé par défaut est twig
+
 89. Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+   Un ORM (Object-Relational Mapping) est un programme qui créer une relation entre une app et une base de donnée. L'ORM Doctrine est utilisé au sein de Symfony.
+
 90. Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
 91. Que permet le bundle Maker au sein de Symfony ?
 92. Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
