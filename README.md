@@ -248,7 +248,8 @@
 53. Définir le polymorphisme en POO
 
 54. Définir une méthode / classe abstraite ?
-   Une méthode est une fonction utilisée dans une classe, uen classe abstraite est une classe qui ne peut être instanciée.
+   Une méthode abstraite peut seulement être déclaré par son nom ou ses paramêtres (signature), une classe abstraite est une classe qui ne peut être instanciée.
+   Si une classe contient une méthode abstraite, elle doit elle aussi devenir une classe abstraite
 
 55. Définir le chaînage de méthodes
 
