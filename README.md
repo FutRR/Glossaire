@@ -189,6 +189,8 @@
 
 39. Qu’est-ce qu’un prototype ?
 
+   Un prototype est une version détaillée du produit fini avec animations et transitions incluses
+
 40. Qu’est-ce que la hiérarchie visuelle en UI Design ?
 
 41. Qu’est-ce que l’accessibilité en UX Design ?
