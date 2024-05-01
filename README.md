@@ -346,6 +346,8 @@
 90. Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
 91. Que permet le bundle Maker au sein de Symfony ?
 92. Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+   DQL (Doctrine Query Language) est le language de requêtage utilisé avec Symfony, il permet de directement inclure les entités dans les requetes.
+
 93. Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
 ## Sécurité
