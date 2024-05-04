@@ -337,6 +337,8 @@
     La dernière version en date est la 7.1
 
 87. Qu’est-ce qu’un bundle ?
+   Un bundle est un ensemble, une collection de code / fichiers / ressources facile à installer
+
 88. Quel est le moteur de template utilisé par défaut dans Symfony ?
    Le moteur de template utilisé par défaut est twig
 
