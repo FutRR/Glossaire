@@ -347,6 +347,8 @@
 
 90. Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
 91. Que permet le bundle Maker au sein de Symfony ?
+   Le bundle Maker de Sylfony permet de facilement créer des éléments tels que des entités, des controlleurs ou des commandes.
+
 92. Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
    DQL (Doctrine Query Language) est le language de requêtage utilisé avec Symfony, il permet de directement inclure les entités dans les requetes.
 
