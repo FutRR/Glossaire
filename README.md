@@ -181,11 +181,11 @@
 
 35. Quelle est la différence entre UX Design et UI Design ?  
 
-    UX design (User Experience) se focalise sur la facilité de prise en main et l'accessibilité de l'interface alors que l'UI design (User        Interface) se focalise sur les visuels et la visibilité de l'interface.
+    UX design (User Experience) se focalise sur la facilité de prise en main et l'accessibilité de l'interface alors que l'UI design (User Interface) se focalise sur les visuels et la visibilité de l'interface.
 
 37. Qu’est-ce qu’un wireframe ?  
 
-    Un wireframe est un schéma d'une page web, il est souvent fait de forme basiques et en nuances de gris. Un wireframe permet de pré-           visualiser la structure d'un site.
+    Un wireframe est un schéma d'une page web, il est souvent fait de forme basiques et en nuances de gris. Un wireframe permet de pré-visualiser la structure d'un site.
 
 39. Qu’est-ce qu’un prototype ?
 
@@ -193,13 +193,15 @@
 
 40. Qu’est-ce que la hiérarchie visuelle en UI Design ?
 
-41. Qu’est-ce que l’accessibilité en UX Design ?
+   La hiérarchie visuelle est le fait d'appliquer des propriétés à certains éléments afin de les faires ressortirs, exemple : COntraste de couleur, texte gras, taille de la police, emplacement
 
-42. Qu’est-ce qu’une grille de mise en page ?
+42. Qu’est-ce que l’accessibilité en UX Design ?
 
-43. Qu’est-ce que la notion d’affordance en UX Design ?
+43. Qu’est-ce qu’une grille de mise en page ?
 
-44. Qu’est-ce qu’un « mobile first design » ?  
+44. Qu’est-ce que la notion d’affordance en UX Design ?
+
+45. Qu’est-ce qu’un « mobile first design » ?  
 
     Le mobile first design est le fait de créer un site avec une structure et un style adapté aux petits écrans, puis de l'ajuster pour les       écrans plus larges.
 
