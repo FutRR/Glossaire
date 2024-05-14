@@ -189,11 +189,11 @@
 
 39. Qu’est-ce qu’un prototype ?
 
-   Un prototype est une version détaillée du produit fini avec animations et transitions incluses
+    Un prototype est une version détaillée du produit fini avec animations et transitions incluses
 
 40. Qu’est-ce que la hiérarchie visuelle en UI Design ?
 
-   La hiérarchie visuelle est le fait d'appliquer des propriétés à certains éléments afin de les faires ressortirs, exemple : COntraste de couleur, texte gras, taille de la police, emplacement
+    La hiérarchie visuelle est le fait d'appliquer des propriétés à certains éléments afin de les faires ressortirs, exemple : COntraste de couleur, texte gras, taille de la police, emplacement
 
 42. Qu’est-ce que l’accessibilité en UX Design ?
 
