@@ -359,9 +359,11 @@
 ## Sécurité
 
 94. Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
+
    L'injection SQL est le fait d'attacher des lignes de codes SQL dans les inputs d'un site afin de modifier la base de donnée. On peut s'en     prémunir en préparant ses requêtes SQL.
 
 95. Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+ 
    Une faille XSS est le fait d'introduire du code malveillant dans un site. On peut s'en prémunir en utilisant par exemple des filter_input     ou filter_var en PHP, cela permettra aux formulaires de détecter et annuler du code malveillant ou des caractères non voulus.
 
 96. Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
